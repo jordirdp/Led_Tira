@@ -1,48 +1,25 @@
 # Tira Led  
+🔗Creado por [Jordi Rodriguez](https://github.com/jordirdp)  
 
-Autor: Jordi Rodríguez  
-  
-Control de 2 tiras Led de 200 elementos cada una, en paralelo desde Arduino  
-Para la programación usaremos la plataforma Arduino IDE:  
+👨🏻‍💻Práctica de **control de tiras led** en paralelo con Arduino  
+    
+### Software  
+- Programado con [Arduino](https://www.arduino.cc/en/software)
+- Se han incluido las siguientes librerías:  
+-- [Adafruit NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel)  
+- Este código realiza las siguientes funciones simples:  
+-- Control de 2 tiras led en paralelo  
+-- Iluminación cambiante  
 
-https://www.arduino.cc/en/software  
-
-Se han incluido las siguientes librerías:  
-
-- Adafruit_NeoPixel
-https://github.com/adafruit/Adafruit_NeoPixel  
-
-  
-  
-![Imagen Tiras Led acabado](TiraLed.jpg)  
-
-
-## Material utilizado  
-
-
-- 2 x LED RGB = Tiras RGB 200 led   
+### Hardware  
 - Arduino UNO  
-  
+- 2 x LED RGB = Tiras RGB 200 led  
 
-## Pines de conexion  
+### Montaje  
+![Imagen](/Images/TiraLed.jpg)  
+Conexiones a pines Arduino UNO:  
+- D06-= signal  
 
-A0 =  
-A1 =  
-A2 =  
-A3 =   
-A4 =  
-A5 =  
-D0 = (RX)  
-D1 = (TX)  
-D2 = (INT0)  
-D3-= (INT1)  
-D4 =     
-D5-=  
-D6-= Signal  
-D7 =  
-D8 =  
-D9-=  
-D10-=  
-D11-=  
-D12 =   
-D13 =  
+### Licencia  
+⚖️Todo el contenido distribuido bajo [licencia GPL-3.0](https://www.gnu.org/licenses/gpl-3.0), salvo indicación expresa.  
+Las referencias y librerías empleadas, estarán sujetas a sus propia licencia, y no se incluyen en este repositorio.  
