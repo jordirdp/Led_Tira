@@ -16,7 +16,7 @@
 - 2 x LED RGB = Tiras RGB 200 led  
 
 ### Montaje  
-![Imagen](/Images/TiraLed.jpg)  
+<img src="/Images/TiraLed.jpg" width="300"/>    
 Conexiones a pines Arduino UNO:  
 - D06-= signal  
 
